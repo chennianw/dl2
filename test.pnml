@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_A_DECLINED">
+        <name>
+          <text>pre_A_DECLINED</text>
+        </name>
+      </place>
+      <place id="pre_W_Afhandelen leads">
+        <name>
+          <text>pre_W_Afhandelen leads</text>
+        </name>
+      </place>
+      <place id="pre_W_Completeren aanvraag">
+        <name>
+          <text>pre_W_Completeren aanvraag</text>
+        </name>
+      </place>
+      <place id="splace_in_O_CREATED_A_FINALIZED_0">
+        <name>
+          <text>splace_in_O_CREATED_A_FINALIZED_0</text>
+        </name>
+      </place>
+      <place id="pre_A_FINALIZED">
+        <name>
+          <text>pre_A_FINALIZED</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_W_Afhandelen leads">
+        <name>
+          <text>intplace_W_Afhandelen leads</text>
+        </name>
+      </place>
+      <place id="pre_O_SENT_BACK">
+        <name>
+          <text>pre_O_SENT_BACK</text>
+        </name>
+      </place>
+      <place id="intplace_W_Valideren aanvraag">
+        <name>
+          <text>intplace_W_Valideren aanvraag</text>
+        </name>
+      </place>
+      <place id="pre_W_Valideren aanvraag">
+        <name>
+          <text>pre_W_Valideren aanvraag</text>
+        </name>
+      </place>
+      <place id="intplace_W_Completeren aanvraag">
+        <name>
+          <text>intplace_W_Completeren aanvraag</text>
+        </name>
+      </place>
+      <place id="pre_W_Nabellen offertes">
+        <name>
+          <text>pre_W_Nabellen offertes</text>
+        </name>
+      </place>
+      <place id="intplace_A_DECLINED">
+        <name>
+          <text>intplace_A_DECLINED</text>
+        </name>
+      </place>
+      <place id="intplace_A_PARTLYSUBMITTED">
+        <name>
+          <text>intplace_A_PARTLYSUBMITTED</text>
+        </name>
+      </place>
+      <place id="pre_A_PARTLYSUBMITTED">
+        <name>
+          <text>pre_A_PARTLYSUBMITTED</text>
+        </name>
+      </place>
+      <place id="pre_A_ACTIVATED">
+        <name>
+          <text>pre_A_ACTIVATED</text>
+        </name>
+      </place>
+      <place id="pre_W_Nabellen incomplete dossiers">
+        <name>
+          <text>pre_W_Nabellen incomplete dossiers</text>
+        </name>
+      </place>
+      <place id="pre_O_SENT">
+        <name>
+          <text>pre_O_SENT</text>
+        </name>
+      </place>
+      <place id="intplace_W_Nabellen offertes">
+        <name>
+          <text>intplace_W_Nabellen offertes</text>
+        </name>
+      </place>
+      <place id="intplace_A_CANCELLED">
+        <name>
+          <text>intplace_A_CANCELLED</text>
+        </name>
+      </place>
+      <place id="splace_in_O_CREATED_O_SELECTED_0">
+        <name>
+          <text>splace_in_O_CREATED_O_SELECTED_0</text>
+        </name>
+      </place>
+      <place id="intplace_W_Beoordelen fraude">
+        <name>
+          <text>intplace_W_Beoordelen fraude</text>
+        </name>
+      </place>
+      <place id="pre_O_SELECTED">
+        <name>
+          <text>pre_O_SELECTED</text>
+        </name>
+      </place>
+      <place id="pre_O_CREATED">
+        <name>
+          <text>pre_O_CREATED</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_W_Beoordelen fraude">
+        <name>
+          <text>pre_W_Beoordelen fraude</text>
+        </name>
+      </place>
+      <place id="pre_A_PREACCEPTED">
+        <name>
+          <text>pre_A_PREACCEPTED</text>
+        </name>
+      </place>
+      <place id="intplace_W_Nabellen incomplete dossiers">
+        <name>
+          <text>intplace_W_Nabellen incomplete dossiers</text>
+        </name>
+      </place>
+      <transition id="A_PREACCEPTED">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c613b54e-44c5-493c-bd06-45205ec2b66f"/>
+      </transition>
+      <transition id="W_Wijzigen contractgegevens">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="hid_77">
+        <name>
+          <text>hid_77</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="03e5c3fd-1c59-4870-ba4a-faf835da17c2"/>
+      </transition>
+      <transition id="hid_89">
+        <name>
+          <text>hid_89</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="84e26093-b812-4961-aaf7-0f7383ea8fa7"/>
+      </transition>
+      <transition id="A_ACCEPTED">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="hid_54">
+        <name>
+          <text>hid_54</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7938f29e-80c0-420b-8175-bb67b64009b4"/>
+      </transition>
+      <transition id="hid_58">
+        <name>
+          <text>hid_58</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="13fbf2bc-0115-47a5-99c0-61cf21d6e956"/>
+      </transition>
+      <transition id="W_Valideren aanvraag">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="A_SUBMITTED">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="hid_48">
+        <name>
+          <text>hid_48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="625c7638-b4a6-41a5-943d-b22d71f73a5c"/>
+      </transition>
+      <transition id="hid_68">
+        <name>
+          <text>hid_68</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="08608053-4d43-4175-8d9a-933dec4d8e45"/>
+      </transition>
+      <transition id="O_SENT">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="A_FINALIZED">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="hid_79">
+        <name>
+          <text>hid_79</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="96a841ed-f4b2-4797-bad0-b0da9b0c0603"/>
+      </transition>
+      <transition id="hid_90">
+        <name>
+          <text>hid_90</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f03fd1b9-5f45-442b-8df9-d80536aa822e"/>
+      </transition>
+      <transition id="hid_56">
+        <name>
+          <text>hid_56</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="efcdb82b-d438-44fc-86fb-2589aa0a9ec6"/>
+      </transition>
+      <transition id="hid_60">
+        <name>
+          <text>hid_60</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c510a196-bef7-49c5-8139-30f47aba6cd2"/>
+      </transition>
+      <transition id="hid_71">
+        <name>
+          <text>hid_71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3e0719aa-a96f-4cc1-82c1-d0454e2207b2"/>
+      </transition>
+      <transition id="O_CANCELLED">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="hid_81">
+        <name>
+          <text>hid_81</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ba62059-e7d6-4b81-8e7b-f76a5c47eccd"/>
+      </transition>
+      <transition id="W_Nabellen incomplete dossiers">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="W_Afhandelen leads">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="hid_62">
+        <name>
+          <text>hid_62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="74f9a53c-dfd4-40a7-b892-be482c1a3b21"/>
+      </transition>
+      <transition id="hid_84">
+        <name>
+          <text>hid_84</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="67b8fdbe-dd23-426d-ac17-772817f45ae7"/>
+      </transition>
+      <transition id="A_DECLINED">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="hid_73">
+        <name>
+          <text>hid_73</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1bb485c9-11fa-422c-b367-29003c5171dd"/>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="43b237e9-5207-41eb-8cd3-112c438d027f"/>
+      </transition>
+      <transition id="hid_70">
+        <name>
+          <text>hid_70</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e2ca3d3e-d2c0-45da-b72b-6e78bac2f9e1"/>
+      </transition>
+      <transition id="hid_93">
+        <name>
+          <text>hid_93</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5c310b7c-5f58-455b-8ffe-ae30b5a35dd2"/>
+      </transition>
+      <transition id="W_Completeren aanvraag">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="hid_86">
+        <name>
+          <text>hid_86</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="96a16761-4a97-4ef7-a638-bba5f4acdd95"/>
+      </transition>
+      <transition id="hid_53">
+        <name>
+          <text>hid_53</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bc49d2ca-5eef-45d5-beed-3b99c6baf99e"/>
+      </transition>
+      <transition id="hid_83">
+        <name>
+          <text>hid_83</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="81a05473-3615-4985-ae9a-d7a3895d139f"/>
+      </transition>
+      <transition id="hid_47">
+        <name>
+          <text>hid_47</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ddc91aa2-aa0f-47c9-9edd-31836641fb3e"/>
+      </transition>
+      <transition id="hid_67">
+        <name>
+          <text>hid_67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d2642935-2321-4ce6-920c-23b02c08f9e5"/>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="hid_92">
+        <name>
+          <text>hid_92</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7a537689-0dce-4c6e-9925-95235e1d613b"/>
+      </transition>
+      <transition id="O_SENT_BACK">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="A_CANCELLED">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="hid_78">
+        <name>
+          <text>hid_78</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d9c7c79e-20e0-4dc8-a245-0629be77e8b5"/>
+      </transition>
+      <transition id="hid_55">
+        <name>
+          <text>hid_55</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="07065811-b33a-4f1a-b20a-b03ecedd4209"/>
+      </transition>
+      <transition id="hid_59">
+        <name>
+          <text>hid_59</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="00d6d1c9-212b-4d12-ba74-863eb05add5e"/>
+      </transition>
+      <transition id="A_ACTIVATED">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <transition id="O_ACCEPTED">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="hid_49">
+        <name>
+          <text>hid_49</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1e4a5fb1-7a7d-4e05-aac6-93b634559e53"/>
+      </transition>
+      <transition id="hid_52">
+        <name>
+          <text>hid_52</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="24b600d6-5fca-48bc-a21d-294ca1f24041"/>
+      </transition>
+      <transition id="hid_69">
+        <name>
+          <text>hid_69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2d5d776c-b8da-41d9-8789-1ffb19c0465e"/>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="54aae607-f641-4e67-ae3b-3661a6201cbc"/>
+      </transition>
+      <transition id="W_Nabellen offertes">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="hid_80">
+        <name>
+          <text>hid_80</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="06a1e899-2706-4e6f-9655-0f5e52fc5131"/>
+      </transition>
+      <transition id="hid_91">
+        <name>
+          <text>hid_91</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7ac64e76-467d-47df-865c-07327cd6fc0d"/>
+      </transition>
+      <transition id="hid_61">
+        <name>
+          <text>hid_61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b1f05e14-1e64-491b-b328-a4959e0bb6b3"/>
+      </transition>
+      <transition id="hid_51">
+        <name>
+          <text>hid_51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="57cb4298-4eed-4b1a-a073-10b9373ee609"/>
+      </transition>
+      <transition id="O_DECLINED">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="hid_72">
+        <name>
+          <text>hid_72</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5f7f607d-848c-4a13-955c-576cf33337f2"/>
+      </transition>
+      <transition id="hid_64">
+        <name>
+          <text>hid_64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="20fc8e13-fedc-4c2a-bc97-6e11783a0487"/>
+      </transition>
+      <transition id="hid_82">
+        <name>
+          <text>hid_82</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="81532efd-d4cb-4f6f-9fa7-a00a4ff2c3d4"/>
+      </transition>
+      <transition id="O_SELECTED">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5566a7ef-0712-4ba1-82ea-dd80a93722d0"/>
+      </transition>
+      <transition id="hid_85">
+        <name>
+          <text>hid_85</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6575dfd4-1717-4cdc-8932-3379744f4640"/>
+      </transition>
+      <transition id="O_CREATED">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="W_Beoordelen fraude">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="hid_74">
+        <name>
+          <text>hid_74</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="70e67a65-31d9-4c96-931e-0eeefa619e90"/>
+      </transition>
+      <arc id="2288138111488" source="pre_A_FINALIZED" target="A_FINALIZED"/>
+      <arc id="2288138369536" source="intplace_W_Beoordelen fraude" target="hid_83"/>
+      <arc id="2288138421248" source="A_ACCEPTED" target="pre_A_FINALIZED"/>
+      <arc id="2288138337296" source="intplace_W_Afhandelen leads" target="hid_72"/>
+      <arc id="2288138422976" source="hid_78" target="pre_W_Afhandelen leads"/>
+      <arc id="2288138334752" source="intplace_W_Nabellen offertes" target="hid_64"/>
+      <arc id="2288138336288" source="hid_69" target="sink0"/>
+      <arc id="2288138369056" source="intplace_W_Completeren aanvraag" target="hid_82"/>
+      <arc id="2288138389536" source="intplace_A_CANCELLED" target="hid_92"/>
+      <arc id="2288138391072" source="hid_61" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138420768" source="hid_53" target="pre_W_Beoordelen fraude"/>
+      <arc id="2288138422304" source="A_ACTIVATED" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138111536" source="pre_O_CREATED" target="O_CREATED"/>
+      <arc id="2288138309696" source="intplace_W_Valideren aanvraag" target="hid_51"/>
+      <arc id="2288138225744" source="pre_W_Completeren aanvraag" target="W_Completeren aanvraag"/>
+      <arc id="2288138260048" source="pre_A_PARTLYSUBMITTED" target="A_PARTLYSUBMITTED"/>
+      <arc id="2288138285648" source="source0" target="A_SUBMITTED"/>
+      <arc id="2288138310224" source="intplace_A_DECLINED" target="hid_52"/>
+      <arc id="2288138337872" source="intplace_W_Afhandelen leads" target="hid_74"/>
+      <arc id="2288138422784" source="hid_48" target="pre_W_Nabellen offertes"/>
+      <arc id="2288138421056" source="hid_65" target="pre_O_SENT_BACK"/>
+      <arc id="2288138335328" source="intplace_W_Nabellen offertes" target="hid_66"/>
+      <arc id="2288138421344" source="A_ACCEPTED" target="pre_O_SELECTED"/>
+      <arc id="2288138422880" source="hid_60" target="pre_W_Nabellen incomplete dossiers"/>
+      <arc id="2288138199152" source="hid_16" target="pre_A_DECLINED"/>
+      <arc id="2288138311808" source="W_Wijzigen contractgegevens" target="sink0"/>
+      <arc id="2288138367616" source="intplace_W_Completeren aanvraag" target="hid_77"/>
+      <arc id="2288138369152" source="hid_82" target="sink0"/>
+      <arc id="2288138422592" source="hid_54" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138200208" source="pre_W_Nabellen incomplete dossiers" target="W_Nabellen incomplete dossiers"/>
+      <arc id="2288138310800" source="intplace_A_DECLINED" target="hid_54"/>
+      <arc id="2288138312336" source="intplace_W_Nabellen incomplete dossiers" target="hid_58"/>
+      <arc id="2288138390160" source="hid_68" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138420864" source="A_PREACCEPTED" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138288288" source="intplace_W_Valideren aanvraag" target="hid_48"/>
+      <arc id="2288138309792" source="hid_51" target="sink0"/>
+      <arc id="2288138335904" source="intplace_W_Nabellen offertes" target="hid_68"/>
+      <arc id="2288138390688" source="hid_67" target="pre_W_Nabellen offertes"/>
+      <arc id="2288138421920" source="O_DECLINED" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138423456" source="intplace_W_Nabellen offertes" target="hid_16"/>
+      <arc id="2288138370496" source="hid_86" target="sink0"/>
+      <arc id="2288138337968" source="hid_74" target="sink0"/>
+      <arc id="2288138391360" source="hid_79" target="pre_W_Beoordelen fraude"/>
+      <arc id="2288138368192" source="intplace_W_Completeren aanvraag" target="hid_79"/>
+      <arc id="2288138388672" source="intplace_A_PARTLYSUBMITTED" target="hid_90"/>
+      <arc id="2288138422400" source="hid_89" target="pre_A_DECLINED"/>
+      <arc id="2288138420672" source="O_SENT_BACK" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138311376" source="intplace_A_DECLINED" target="hid_56"/>
+      <arc id="2288138312912" source="intplace_W_Nabellen incomplete dossiers" target="hid_60"/>
+      <arc id="2288138112736" source="pre_O_SELECTED" target="O_SELECTED"/>
+      <arc id="2288138111200" source="hid_4" target="pre_O_CREATED"/>
+      <arc id="2288138311904" source="W_Nabellen incomplete dossiers" target="intplace_W_Nabellen incomplete dossiers"/>
+      <arc id="2288138391264" source="hid_71" target="pre_A_PREACCEPTED"/>
+      <arc id="2288138420960" source="hid_84" target="pre_W_Beoordelen fraude"/>
+      <arc id="2288138422496" source="hid_91" target="pre_W_Afhandelen leads"/>
+      <arc id="2288138337008" source="intplace_W_Afhandelen leads" target="hid_71"/>
+      <arc id="2288138389488" source="A_CANCELLED" target="intplace_A_CANCELLED"/>
+      <arc id="2288138391168" source="hid_73" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138422208" source="hid_80" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138286848" source="O_ACCEPTED" target="pre_A_ACTIVATED"/>
+      <arc id="2288138368768" source="intplace_W_Completeren aanvraag" target="hid_81"/>
+      <arc id="2288138420480" source="hid_83" target="pre_A_DECLINED"/>
+      <arc id="2288138109712" source="pre_W_Valideren aanvraag" target="W_Valideren aanvraag"/>
+      <arc id="2288138260240" source="pre_A_PREACCEPTED" target="A_PREACCEPTED"/>
+      <arc id="2288138287376" source="W_Valideren aanvraag" target="intplace_W_Valideren aanvraag"/>
+      <arc id="2288138313488" source="intplace_W_Nabellen incomplete dossiers" target="hid_62"/>
+      <arc id="2288138338064" source="W_Completeren aanvraag" target="intplace_W_Completeren aanvraag"/>
+      <arc id="2288138369824" source="intplace_W_Beoordelen fraude" target="hid_84"/>
+      <arc id="2288138370112" source="intplace_W_Beoordelen fraude" target="hid_85"/>
+      <arc id="2288138390304" source="hid_64" target="pre_O_SELECTED"/>
+      <arc id="2288138421536" source="O_SENT" target="pre_W_Nabellen offertes"/>
+      <arc id="2288138423072" source="hid_72" target="pre_W_Afhandelen leads"/>
+      <arc id="2288138390976" source="hid_59" target="pre_O_SENT_BACK"/>
+      <arc id="2288138110768" source="splace_in_O_CREATED_O_SELECTED_0" target="hid_4"/>
+      <arc id="2288138311472" source="hid_56" target="sink0"/>
+      <arc id="2288138337584" source="intplace_W_Afhandelen leads" target="hid_73"/>
+      <arc id="2288138389248" source="A_SUBMITTED" target="pre_A_PARTLYSUBMITTED"/>
+      <arc id="2288138422016" source="hid_49" target="pre_W_Valideren aanvraag"/>
+      <arc id="2288138335040" source="intplace_W_Nabellen offertes" target="hid_65"/>
+      <arc id="2288138336576" source="W_Afhandelen leads" target="intplace_W_Afhandelen leads"/>
+      <arc id="2288138389824" source="intplace_A_CANCELLED" target="hid_93"/>
+      <arc id="2288138423648" source="intplace_W_Valideren aanvraag" target="hid_16"/>
+      <arc id="2288138423744" source="intplace_W_Completeren aanvraag" target="A_ACCEPTED"/>
+      <arc id="2288138370400" source="intplace_W_Beoordelen fraude" target="hid_86"/>
+      <arc id="2288138390880" source="O_CANCELLED" target="pre_O_CREATED"/>
+      <arc id="2288138420576" source="hid_81" target="pre_W_Nabellen offertes"/>
+      <arc id="2288138422112" source="hid_92" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138423552" source="intplace_W_Completeren aanvraag" target="A_CANCELLED"/>
+      <arc id="2288138135920" source="pre_A_DECLINED" target="A_DECLINED"/>
+      <arc id="2288138285936" source="A_FINALIZED" target="splace_in_O_CREATED_A_FINALIZED_0"/>
+      <arc id="2288138310512" source="intplace_A_DECLINED" target="hid_53"/>
+      <arc id="2288138313584" source="hid_62" target="sink0"/>
+      <arc id="2288138388336" source="A_PARTLYSUBMITTED" target="intplace_A_PARTLYSUBMITTED"/>
+      <arc id="2288138421824" source="hid_58" target="pre_O_SELECTED"/>
+      <arc id="2288138288000" source="intplace_W_Valideren aanvraag" target="hid_47"/>
+      <arc id="2288138335616" source="intplace_W_Nabellen offertes" target="hid_67"/>
+      <arc id="2288138390400" source="hid_85" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138421632" source="hid_47" target="pre_W_Nabellen incomplete dossiers"/>
+      <arc id="2288138224016" source="pre_W_Afhandelen leads" target="W_Afhandelen leads"/>
+      <arc id="2288138259856" source="pre_O_SENT" target="O_SENT"/>
+      <arc id="2288138286992" source="O_SELECTED" target="splace_in_O_CREATED_O_SELECTED_0"/>
+      <arc id="2288138201504" source="pre_W_Nabellen offertes" target="W_Nabellen offertes"/>
+      <arc id="2288138367904" source="intplace_W_Completeren aanvraag" target="hid_78"/>
+      <arc id="2288138388384" source="intplace_A_PARTLYSUBMITTED" target="hid_89"/>
+      <arc id="2288138389920" source="hid_93" target="sink0"/>
+      <arc id="2288138390592" source="hid_77" target="pre_A_DECLINED"/>
+      <arc id="2288138391456" source="hid_55" target="pre_W_Nabellen incomplete dossiers"/>
+      <arc id="2288138421152" source="O_DECLINED" target="pre_W_Nabellen offertes"/>
+      <arc id="2288138422688" source="hid_90" target="pre_A_PREACCEPTED"/>
+      <arc id="2288138423360" source="intplace_W_Valideren aanvraag" target="W_Wijzigen contractgegevens"/>
+      <arc id="2288138311088" source="intplace_A_DECLINED" target="hid_55"/>
+      <arc id="2288138312624" source="intplace_W_Nabellen incomplete dossiers" target="hid_59"/>
+      <arc id="2288138288576" source="intplace_W_Valideren aanvraag" target="hid_49"/>
+      <arc id="2288138310080" source="A_DECLINED" target="intplace_A_DECLINED"/>
+      <arc id="2288138336192" source="intplace_W_Nabellen offertes" target="hid_69"/>
+      <arc id="2288138109904" source="pre_A_ACTIVATED" target="A_ACTIVATED"/>
+      <arc id="2288138257360" source="pre_W_Beoordelen fraude" target="W_Beoordelen fraude"/>
+      <arc id="2288138258896" source="pre_O_SENT_BACK" target="O_SENT_BACK"/>
+      <arc id="2288138313680" source="W_Nabellen offertes" target="intplace_W_Nabellen offertes"/>
+      <arc id="2288138336720" source="intplace_W_Afhandelen leads" target="hid_70"/>
+      <arc id="2288138369488" source="W_Beoordelen fraude" target="intplace_W_Beoordelen fraude"/>
+      <arc id="2288138423168" source="intplace_W_Valideren aanvraag" target="O_ACCEPTED"/>
+      <arc id="2288138368480" source="intplace_W_Completeren aanvraag" target="hid_80"/>
+      <arc id="2288138388960" source="intplace_A_PARTLYSUBMITTED" target="hid_91"/>
+      <arc id="2288138390496" source="hid_52" target="pre_W_Afhandelen leads"/>
+      <arc id="2288138421728" source="hid_66" target="pre_W_Completeren aanvraag"/>
+      <arc id="2288138421440" source="hid_70" target="pre_A_DECLINED"/>
+      <arc id="2288138423264" source="intplace_W_Nabellen incomplete dossiers" target="O_DECLINED"/>
+      <arc id="2288138110960" source="splace_in_O_CREATED_A_FINALIZED_0" target="hid_4"/>
+      <arc id="2288138287088" source="O_CREATED" target="pre_O_SENT"/>
+      <arc id="2288138313200" source="intplace_W_Nabellen incomplete dossiers" target="hid_61"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
