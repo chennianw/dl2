@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="18">
+        <name>
+          <text>18</text>
+        </name>
+      </place>
+      <place id="23">
+        <name>
+          <text>23</text>
+        </name>
+      </place>
+      <place id="24">
+        <name>
+          <text>24</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="12">
+        <name>
+          <text>12</text>
+        </name>
+      </place>
+      <place id="16">
+        <name>
+          <text>16</text>
+        </name>
+      </place>
+      <place id="20">
+        <name>
+          <text>20</text>
+        </name>
+      </place>
+      <place id="25">
+        <name>
+          <text>25</text>
+        </name>
+      </place>
+      <place id="29">
+        <name>
+          <text>29</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="15">
+        <name>
+          <text>15</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="14">
+        <name>
+          <text>14</text>
+        </name>
+      </place>
+      <place id="13">
+        <name>
+          <text>13</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="22">
+        <name>
+          <text>22</text>
+        </name>
+      </place>
+      <place id="28">
+        <name>
+          <text>28</text>
+        </name>
+      </place>
+      <place id="30">
+        <name>
+          <text>30</text>
+        </name>
+      </place>
+      <place id="26">
+        <name>
+          <text>26</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="17">
+        <name>
+          <text>17</text>
+        </name>
+      </place>
+      <place id="19">
+        <name>
+          <text>19</text>
+        </name>
+      </place>
+      <place id="21">
+        <name>
+          <text>21</text>
+        </name>
+      </place>
+      <place id="27">
+        <name>
+          <text>27</text>
+        </name>
+      </place>
+      <transition id="A_ACTIVATED">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <transition id="A_FINALIZED">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="A_SUBMITTED">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="O_DECLINED">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="W_Afhandelen leads">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="W_Wijzigen contractgegevens">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="A_ACCEPTED">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="A_DECLINED">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="A_REGISTERED">
+        <name>
+          <text>A_REGISTERED</text>
+        </name>
+      </transition>
+      <transition id="O_CREATED">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="O_SENT_BACK">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen incomplete dossiers">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="W_Valideren aanvraag">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f037ffe8-dfbb-4104-ade0-4e24c3a63c08"/>
+      </transition>
+      <transition id="A_CANCELLED">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="A_PREACCEPTED">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="O_CANCELLED">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="O_SENT">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="W_Completeren aanvraag">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen offertes">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="A_APPROVED">
+        <name>
+          <text>A_APPROVED</text>
+        </name>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="O_ACCEPTED">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="O_SELECTED">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="W_Beoordelen fraude">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ac0789c0-dd87-4bf9-8f6b-f33b673f07f3"/>
+      </transition>
+      <arc id="2879505417216" source="A_ACCEPTED" target="6"/>
+      <arc id="2879505631120" source="26" target="O_ACCEPTED"/>
+      <arc id="2879505532816" source="A_PARTLYSUBMITTED" target="30"/>
+      <arc id="2879505667600" source="10" target="W_Wijzigen contractgegevens"/>
+      <arc id="2877190847504" source="W_Wijzigen contractgegevens" target="4"/>
+      <arc id="2879505417744" source="6" target="O_ACCEPTED"/>
+      <arc id="2879505659408" source="W_Wijzigen contractgegevens" target="15"/>
+      <arc id="2879505660944" source="A_DECLINED" target="17"/>
+      <arc id="2879505475088" source="W_Afhandelen leads" target="19"/>
+      <arc id="2879505476624" source="20" target="O_SELECTED"/>
+      <arc id="2879505480720" source="O_SENT" target="24"/>
+      <arc id="2879505480816" source="W_Beoordelen fraude" target="24"/>
+      <arc id="2879505629392" source="A_PARTLYSUBMITTED" target="25"/>
+      <arc id="2879505531088" source="28" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505418272" source="A_ACTIVATED" target="7"/>
+      <arc id="2879505419808" source="A_ACTIVATED" target="9"/>
+      <arc id="2879505477152" source="A_ACTIVATED" target="21"/>
+      <arc id="2879505632752" source="A_REGISTERED" target="28"/>
+      <arc id="2879505631024" source="26" target="A_DECLINED"/>
+      <arc id="2879505667120" source="W_Wijzigen contractgegevens" target="10"/>
+      <arc id="2877190847024" source="A_PARTLYSUBMITTED" target="4"/>
+      <arc id="2879505418800" source="7" target="O_ACCEPTED"/>
+      <arc id="2879505668656" source="11" target="O_SENT_BACK"/>
+      <arc id="2879505660464" source="W_Wijzigen contractgegevens" target="16"/>
+      <arc id="2879505474608" source="18" target="■"/>
+      <arc id="2879505476144" source="O_SENT" target="20"/>
+      <arc id="2879505478704" source="22" target="O_ACCEPTED"/>
+      <arc id="2879505480240" source="23" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505629296" source="A_CANCELLED" target="25"/>
+      <arc id="2879505530992" source="28" target="O_SELECTED"/>
+      <arc id="2879505632656" source="27" target="■"/>
+      <arc id="2877190846016" source="W_Wijzigen contractgegevens" target="2"/>
+      <arc id="2879505419328" source="O_CREATED" target="8"/>
+      <arc id="2879505669184" source="A_ACTIVATED" target="12"/>
+      <arc id="2879505479232" source="A_PARTLYSUBMITTED" target="23"/>
+      <arc id="2879505630928" source="26" target="A_ACCEPTED"/>
+      <arc id="2879505474416" source="18" target="W_Completeren aanvraag"/>
+      <arc id="2877190846544" source="W_Wijzigen contractgegevens" target="3"/>
+      <arc id="2877190848080" source="A_PARTLYSUBMITTED" target="5"/>
+      <arc id="2879505416784" source="5" target="W_Completeren aanvraag"/>
+      <arc id="2879505668176" source="O_SENT_BACK" target="11"/>
+      <arc id="2879505669712" source="12" target="O_SELECTED"/>
+      <arc id="2879505659984" source="15" target="■"/>
+      <arc id="2879505661520" source="17" target="A_DECLINED"/>
+      <arc id="2879505474128" source="W_Wijzigen contractgegevens" target="18"/>
+      <arc id="2879505475664" source="19" target="■"/>
+      <arc id="2879505479760" source="W_Wijzigen contractgegevens" target="23"/>
+      <arc id="2879505632560" source="27" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505476048" source="A_PREACCEPTED" target="20"/>
+      <arc id="2879505658976" source="A_ACTIVATED" target="15"/>
+      <arc id="2879505630832" source="W_Wijzigen contractgegevens" target="26"/>
+      <arc id="2879505532528" source="A_FINALIZED" target="30"/>
+      <arc id="2879505666160" source="9" target="O_SELECTED"/>
+      <arc id="2877190847600" source="4" target="A_PREACCEPTED"/>
+      <arc id="2879505416304" source="W_Completeren aanvraag" target="5"/>
+      <arc id="2879505417840" source="6" target="O_SELECTED"/>
+      <arc id="2879505667696" source="10" target="■"/>
+      <arc id="2879505657968" source="A_ACCEPTED" target="13"/>
+      <arc id="2879505659504" source="15" target="A_ACCEPTED"/>
+      <arc id="2879505475184" source="W_Wijzigen contractgegevens" target="19"/>
+      <arc id="2879505476720" source="20" target="W_Afhandelen leads"/>
+      <arc id="2879505477744" source="21" target="O_ACCEPTED"/>
+      <arc id="2879505632464" source="27" target="W_Completeren aanvraag"/>
+      <arc id="2877190845056" source="source" target="▶"/>
+      <arc id="2879505666688" source="A_ACTIVATED" target="10"/>
+      <arc id="2879505658496" source="O_SELECTED" target="14"/>
+      <arc id="2879505478272" source="A_ACTIVATED" target="22"/>
+      <arc id="2879505630736" source="O_SENT" target="26"/>
+      <arc id="2879505632896" source="A_PARTLYSUBMITTED" target="28"/>
+      <arc id="2879505532432" source="29" target="■"/>
+      <arc id="2879505477584" source="21" target="A_CANCELLED"/>
+      <arc id="2879505417360" source="A_PARTLYSUBMITTED" target="6"/>
+      <arc id="2879505418896" source="7" target="O_CREATED"/>
+      <arc id="2879505667216" source="10" target="O_ACCEPTED"/>
+      <arc id="2879505668752" source="11" target="W_Valideren aanvraag"/>
+      <arc id="2879505660560" source="16" target="O_ACCEPTED"/>
+      <arc id="2879505474704" source="A_PARTLYSUBMITTED" target="19"/>
+      <arc id="2879505476240" source="W_Afhandelen leads" target="20"/>
+      <arc id="2879505478800" source="22" target="O_SELECTED"/>
+      <arc id="2879505480336" source="23" target="■"/>
+      <arc id="2879505631888" source="O_SENT" target="27"/>
+      <arc id="2879505632368" source="27" target="O_SELECTED"/>
+      <arc id="2879505630640" source="A_PARTLYSUBMITTED" target="26"/>
+      <arc id="2879505532336" source="29" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505661088" source="A_ACTIVATED" target="17"/>
+      <arc id="2879505473696" source="A_ACTIVATED" target="18"/>
+      <arc id="2879505477488" source="W_Wijzigen contractgegevens" target="21"/>
+      <arc id="2879505478608" source="W_Wijzigen contractgegevens" target="22"/>
+      <arc id="2879505416880" source="5" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505418416" source="A_PARTLYSUBMITTED" target="7"/>
+      <arc id="2879505419952" source="O_SENT" target="9"/>
+      <arc id="2879505668272" source="W_Valideren aanvraag" target="11"/>
+      <arc id="2879505669808" source="12" target="W_Valideren aanvraag"/>
+      <arc id="2879505660080" source="A_PARTLYSUBMITTED" target="16"/>
+      <arc id="2879505661616" source="17" target="O_ACCEPTED"/>
+      <arc id="2879505474224" source="18" target="O_ACCEPTED"/>
+      <arc id="2879505475760" source="A_PARTLYSUBMITTED" target="20"/>
+      <arc id="2879505477296" source="A_PARTLYSUBMITTED" target="21"/>
+      <arc id="2879505632272" source="27" target="O_ACCEPTED"/>
+      <arc id="2879505630544" source="A_DECLINED" target="26"/>
+      <arc id="2879505532240" source="29" target="W_Afhandelen leads"/>
+      <arc id="2877190847168" source="A_ACTIVATED" target="4"/>
+      <arc id="2879505630400" source="A_ACTIVATED" target="26"/>
+      <arc id="2879505478512" source="W_Nabellen incomplete dossiers" target="22"/>
+      <arc id="2879505632176" source="27" target="A_FINALIZED"/>
+      <arc id="2879505666256" source="9" target="W_Nabellen offertes"/>
+      <arc id="2879505419472" source="8" target="O_SENT"/>
+      <arc id="2877190847696" source="4" target="O_ACCEPTED"/>
+      <arc id="2879505416400" source="W_Wijzigen contractgegevens" target="5"/>
+      <arc id="2879505417936" source="6" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505667792" source="A_PARTLYSUBMITTED" target="11"/>
+      <arc id="2879505669328" source="O_SENT" target="12"/>
+      <arc id="2879505658064" source="W_Wijzigen contractgegevens" target="13"/>
+      <arc id="2879505659600" source="15" target="O_ACCEPTED"/>
+      <arc id="2879505473744" source="A_PARTLYSUBMITTED" target="18"/>
+      <arc id="2879505532144" source="29" target="O_SELECTED"/>
+      <arc id="2879505473936" source="O_SENT" target="18"/>
+      <arc id="2879505479664" source="W_Nabellen incomplete dossiers" target="23"/>
+      <arc id="2879505480144" source="23" target="W_Nabellen incomplete dossiers"/>
+      <arc id="2877190846688" source="A_SUBMITTED" target="3"/>
+      <arc id="2877190848224" source="A_ACTIVATED" target="5"/>
+      <arc id="2879505478416" source="O_SENT" target="22"/>
+      <arc id="2879505632080" source="W_Wijzigen contractgegevens" target="27"/>
+      <arc id="2879505418992" source="7" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505667312" source="10" target="O_SELECTED"/>
+      <arc id="2879505417456" source="O_SENT" target="6"/>
+      <arc id="2879505668848" source="11" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505659120" source="A_PARTLYSUBMITTED" target="15"/>
+      <arc id="2879505660656" source="16" target="O_SELECTED"/>
+      <arc id="2879505475568" source="19" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505476336" source="W_Wijzigen contractgegevens" target="20"/>
+      <arc id="2879505478896" source="22" target="W_Nabellen incomplete dossiers"/>
+      <arc id="2879505631984" source="W_Completeren aanvraag" target="27"/>
+      <arc id="2879505532048" source="29" target="O_ACCEPTED"/>
+      <arc id="2879505480048" source="23" target="O_SENT_BACK"/>
+      <arc id="2877190846208" source="▶" target="2"/>
+      <arc id="2879505532672" source="A_ACTIVATED" target="30"/>
+      <arc id="2879505533680" source="30" target="■"/>
+      <arc id="2879505475472" source="19" target="W_Afhandelen leads"/>
+      <arc id="2879505481680" source="A_ACTIVATED" target="25"/>
+      <arc id="2879505416976" source="5" target="■"/>
+      <arc id="2879505418512" source="O_SENT" target="7"/>
+      <arc id="2879505420048" source="W_Nabellen offertes" target="9"/>
+      <arc id="2879505666832" source="O_SENT" target="10"/>
+      <arc id="2879505668368" source="W_Wijzigen contractgegevens" target="11"/>
+      <arc id="2879505669904" source="12" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505658640" source="14" target="O_CREATED"/>
+      <arc id="2879505661712" source="17" target="O_SELECTED"/>
+      <arc id="2879505474320" source="18" target="O_SELECTED"/>
+      <arc id="2879505477392" source="O_SENT" target="21"/>
+      <arc id="2879505479952" source="23" target="O_SELECTED"/>
+      <arc id="2879505531952" source="29" target="A_CANCELLED"/>
+      <arc id="2879505474848" source="A_ACTIVATED" target="19"/>
+      <arc id="2879505480480" source="A_ACTIVATED" target="24"/>
+      <arc id="2879505630496" source="A_ACCEPTED" target="26"/>
+      <arc id="2879505533584" source="30" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505630160" source="25" target="■"/>
+      <arc id="2877190847792" source="4" target="O_SELECTED"/>
+      <arc id="2879505416496" source="5" target="A_PREACCEPTED"/>
+      <arc id="2879505418032" source="6" target="■"/>
+      <arc id="2879505419568" source="8" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505666352" source="9" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505669424" source="W_Valideren aanvraag" target="12"/>
+      <arc id="2879505658160" source="13" target="A_FINALIZED"/>
+      <arc id="2879505659696" source="15" target="O_CANCELLED"/>
+      <arc id="2879505661232" source="A_PARTLYSUBMITTED" target="17"/>
+      <arc id="2879505475376" source="19" target="O_SELECTED"/>
+      <arc id="2879505479856" source="23" target="O_ACCEPTED"/>
+      <arc id="2879505477008" source="A_CANCELLED" target="21"/>
+      <arc id="2879505660224" source="A_ACTIVATED" target="16"/>
+      <arc id="2879505475904" source="A_ACTIVATED" target="20"/>
+      <arc id="2879505478128" source="A_PARTLYSUBMITTED" target="22"/>
+      <arc id="2879505481536" source="A_ACCEPTED" target="25"/>
+      <arc id="2879505631792" source="A_PARTLYSUBMITTED" target="27"/>
+      <arc id="2879505533488" source="30" target="W_Nabellen offertes"/>
+      <arc id="2879505475280" source="19" target="O_ACCEPTED"/>
+      <arc id="2879505630064" source="25" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505531760" source="W_Afhandelen leads" target="29"/>
+      <arc id="2879505667408" source="10" target="O_SENT_BACK"/>
+      <arc id="2877190847312" source="A_PREACCEPTED" target="4"/>
+      <arc id="2879505417552" source="W_Wijzigen contractgegevens" target="6"/>
+      <arc id="2879505419088" source="7" target="■"/>
+      <arc id="2879505668944" source="11" target="■"/>
+      <arc id="2879505659216" source="O_CANCELLED" target="15"/>
+      <arc id="2879505660752" source="16" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505476432" source="20" target="A_PREACCEPTED"/>
+      <arc id="2879505478992" source="22" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505480528" source="A_PARTLYSUBMITTED" target="24"/>
+      <arc id="2879505476912" source="20" target="■"/>
+      <arc id="2879505478032" source="21" target="■"/>
+      <arc id="2879505533392" source="30" target="O_CREATED"/>
+      <arc id="2879505667936" source="A_ACTIVATED" target="11"/>
+      <arc id="2879505481392" source="24" target="■"/>
+      <arc id="2879505629968" source="25" target="O_SELECTED"/>
+      <arc id="2879505531664" source="O_SENT" target="29"/>
+      <arc id="2879505420144" source="W_Wijzigen contractgegevens" target="9"/>
+      <arc id="2879505666928" source="O_SENT_BACK" target="10"/>
+      <arc id="2877190846832" source="3" target="A_PARTLYSUBMITTED"/>
+      <arc id="2877190848368" source="A_PREACCEPTED" target="5"/>
+      <arc id="2879505417072" source="A_ACTIVATED" target="6"/>
+      <arc id="2879505418608" source="W_Wijzigen contractgegevens" target="7"/>
+      <arc id="2879505668464" source="11" target="O_ACCEPTED"/>
+      <arc id="2879505670000" source="12" target="■"/>
+      <arc id="2879505658736" source="14" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505661808" source="17" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505476816" source="20" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505477936" source="21" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505533296" source="30" target="O_ACCEPTED"/>
+      <arc id="2879505480912" source="W_Wijzigen contractgegevens" target="24"/>
+      <arc id="2879505481296" source="24" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505629872" source="25" target="O_ACCEPTED"/>
+      <arc id="2879505531568" source="A_PARTLYSUBMITTED" target="29"/>
+      <arc id="2879505479568" source="O_SENT_BACK" target="23"/>
+      <arc id="2879505633232" source="28" target="O_ACCEPTED"/>
+      <arc id="2877190846352" source="2" target="A_SUBMITTED"/>
+      <arc id="2877190847888" source="4" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505416592" source="5" target="O_ACCEPTED"/>
+      <arc id="2879505418128" source="A_FINALIZED" target="7"/>
+      <arc id="2879505419664" source="A_PARTLYSUBMITTED" target="9"/>
+      <arc id="2879505666448" source="9" target="■"/>
+      <arc id="2879505669520" source="W_Wijzigen contractgegevens" target="12"/>
+      <arc id="2879505658256" source="13" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505659792" source="15" target="O_CREATED"/>
+      <arc id="2879505661328" source="O_SENT" target="17"/>
+      <arc id="2879505477840" source="21" target="O_SELECTED"/>
+      <arc id="2879505631504" source="A_ACTIVATED" target="27"/>
+      <arc id="2879505533200" source="30" target="A_ACCEPTED"/>
+      <arc id="2879505481200" source="24" target="W_Beoordelen fraude"/>
+      <arc id="2879505631648" source="A_ACCEPTED" target="27"/>
+      <arc id="2879505629776" source="25" target="A_CANCELLED"/>
+      <arc id="2879505479472" source="O_SENT" target="23"/>
+      <arc id="2879505532912" source="O_SENT" target="30"/>
+      <arc id="2879505633136" source="W_Wijzigen contractgegevens" target="28"/>
+      <arc id="2879505667504" source="10" target="W_Nabellen offertes"/>
+      <arc id="2877190847408" source="O_SENT" target="4"/>
+      <arc id="2879505417648" source="6" target="A_ACCEPTED"/>
+      <arc id="2879505419184" source="W_Wijzigen contractgegevens" target="8"/>
+      <arc id="2879505669040" source="A_PARTLYSUBMITTED" target="12"/>
+      <arc id="2879505659312" source="O_SENT" target="15"/>
+      <arc id="2879505660848" source="16" target="■"/>
+      <arc id="2879505474992" source="O_SENT" target="19"/>
+      <arc id="2879505476528" source="20" target="O_ACCEPTED"/>
+      <arc id="2879505479088" source="22" target="■"/>
+      <arc id="2879505631408" source="26" target="■"/>
+      <arc id="2879505533104" source="W_Wijzigen contractgegevens" target="30"/>
+      <arc id="2879505481104" source="24" target="O_SELECTED"/>
+      <arc id="2877190844864" source="■" target="sink"/>
+      <arc id="2879505629680" source="25" target="A_ACCEPTED"/>
+      <arc id="2879505531328" source="A_ACTIVATED" target="29"/>
+      <arc id="2879505531184" source="28" target="■"/>
+      <arc id="2879505531376" source="A_CANCELLED" target="29"/>
+      <arc id="2879505479376" source="A_ACTIVATED" target="23"/>
+      <arc id="2879505633040" source="O_SENT" target="28"/>
+      <arc id="2879505531856" source="W_Wijzigen contractgegevens" target="29"/>
+      <arc id="2879505420240" source="9" target="O_ACCEPTED"/>
+      <arc id="2879505667024" source="W_Nabellen offertes" target="10"/>
+      <arc id="2877190846928" source="3" target="W_Wijzigen contractgegevens"/>
+      <arc id="2877190848464" source="O_SENT" target="5"/>
+      <arc id="2879505418704" source="7" target="A_ACCEPTED"/>
+      <arc id="2879505668560" source="11" target="O_SELECTED"/>
+      <arc id="2879505658832" source="A_FINALIZED" target="15"/>
+      <arc id="2879505660368" source="O_SENT" target="16"/>
+      <arc id="2879505661904" source="17" target="■"/>
+      <arc id="2879505474512" source="18" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505481008" source="24" target="O_ACCEPTED"/>
+      <arc id="2879505631312" source="26" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505533008" source="W_Nabellen offertes" target="30"/>
+      <arc id="2879505629584" source="W_Wijzigen contractgegevens" target="25"/>
+      <arc id="2879505666544" source="A_PARTLYSUBMITTED" target="10"/>
+      <arc id="2877190846448" source="2" target="W_Wijzigen contractgegevens"/>
+      <arc id="2877190847984" source="4" target="■"/>
+      <arc id="2879505416688" source="5" target="O_SELECTED"/>
+      <arc id="2879505668080" source="O_SENT" target="11"/>
+      <arc id="2879505669616" source="12" target="O_ACCEPTED"/>
+      <arc id="2879505658352" source="W_Wijzigen contractgegevens" target="14"/>
+      <arc id="2879505659888" source="15" target="W_Wijzigen contractgegevens"/>
+      <arc id="2879505661424" source="W_Wijzigen contractgegevens" target="17"/>
+      <arc id="2879505474032" source="W_Completeren aanvraag" target="18"/>
+      <arc id="2879505629488" source="O_SENT" target="25"/>
+      <arc id="2879505631216" source="26" target="O_SELECTED"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1705401668.7038615" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1705401668.7038615</text>
+    </name>
+    <page id="n0">
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <transition id="25a476e6-b83f-48c0-a80c-2c12daa3e761">
+        <name>
+          <text>A_APPROVED</text>
+        </name>
+      </transition>
+      <transition id="006a0050-6d21-464f-8209-1e6938f976ed">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="c50f0041-7645-4d56-9b00-1dbd7f79090b">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="105b235d-eba4-4089-9564-3085a8513f83">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="2c440fa8-9c20-402c-89bd-328fa896c4b6">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="ca1b0a12-6fa4-47ff-9dbd-c578e1be2904">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="38fe9ca9-dc23-44e4-887a-5144ef7a8d73">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="6adee5d3-765a-41b1-972f-5f844331479b">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="91052f25-068b-4fcd-8e05-86a0c606d9e8">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="db8f9ad9-9b2b-4812-b295-317e262ea82b">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="9f93a90c-1f0d-4b3f-a647-1db3d29458b0">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="d3425608-37a2-41d5-8fda-ffa4a00051f7">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="ce877563-ee68-48a2-a408-ed8655346a88">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9e3399eb-409d-46ea-89d1-9f3f38525b26"/>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1e0c8cc6-a216-439e-a6f8-5a8700b77dc4"/>
+      </transition>
+      <transition id="dd106174-6fea-4779-a6db-4b9ab5491290">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="b3f03a4c-a7a6-4db4-a8ad-481dc97bc5cb">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="13516413-240d-48b1-b9aa-ecc6383ad253">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="ce147dfc-8781-449e-83c6-222bf4ffea05">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="6d7c79fa-8d07-4d74-91e5-1dc5c2108baf">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="ab68551f-9776-4e99-932c-bbc5b24db8c6">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="06598dfb-2b04-4f81-83fe-9e3fddecda0e">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="245ea33c-16c6-42e6-9e4c-f779862b80ef">
+        <name>
+          <text>A_REGISTERED</text>
+        </name>
+      </transition>
+      <transition id="622069ea-2233-45c2-98e1-bc133d66dbd6">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="3528c6e4-a717-463e-ba01-b12dceaa4b16">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="c8881f24-0ce3-4d7d-8dcf-5b2404886027">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <arc id="1841400577280" source="ce147dfc-8781-449e-83c6-222bf4ffea05" target="p_4"/>
+      <arc id="1841400577664" source="p_4" target="06598dfb-2b04-4f81-83fe-9e3fddecda0e"/>
+      <arc id="1841406797952" source="p_6" target="ab68551f-9776-4e99-932c-bbc5b24db8c6"/>
+      <arc id="1841406798720" source="p_6" target="ca1b0a12-6fa4-47ff-9dbd-c578e1be2904"/>
+      <arc id="1841399122816" source="91052f25-068b-4fcd-8e05-86a0c606d9e8" target="p_7"/>
+      <arc id="1841399123200" source="p_6" target="3528c6e4-a717-463e-ba01-b12dceaa4b16"/>
+      <arc id="1841403175552" source="9f93a90c-1f0d-4b3f-a647-1db3d29458b0" target="p_7"/>
+      <arc id="1841406796560" source="d3425608-37a2-41d5-8fda-ffa4a00051f7" target="p_7"/>
+      <arc id="1841406797712" source="p_6" target="006a0050-6d21-464f-8209-1e6938f976ed"/>
+      <arc id="1841406799248" source="p_6" target="dd106174-6fea-4779-a6db-4b9ab5491290"/>
+      <arc id="1841406799632" source="622069ea-2233-45c2-98e1-bc133d66dbd6" target="p_7"/>
+      <arc id="1841403176080" source="p_7" target="skip_4"/>
+      <arc id="1841403176464" source="p_7" target="skip_5"/>
+      <arc id="1841403176800" source="skip_4" target="p_6"/>
+      <arc id="1841406798624" source="ca1b0a12-6fa4-47ff-9dbd-c578e1be2904" target="p_7"/>
+      <arc id="1841400656800" source="p_6" target="6adee5d3-765a-41b1-972f-5f844331479b"/>
+      <arc id="1841399120032" source="p_6" target="c8881f24-0ce3-4d7d-8dcf-5b2404886027"/>
+      <arc id="1841399123104" source="b3f03a4c-a7a6-4db4-a8ad-481dc97bc5cb" target="p_7"/>
+      <arc id="1841399123488" source="p_6" target="105b235d-eba4-4089-9564-3085a8513f83"/>
+      <arc id="1841403175072" source="p_6" target="2c440fa8-9c20-402c-89bd-328fa896c4b6"/>
+      <arc id="1841403175840" source="13516413-240d-48b1-b9aa-ecc6383ad253" target="p_7"/>
+      <arc id="1841403176992" source="06598dfb-2b04-4f81-83fe-9e3fddecda0e" target="p_6"/>
+      <arc id="1841406799536" source="p_6" target="622069ea-2233-45c2-98e1-bc133d66dbd6"/>
+      <arc id="1841399120176" source="p_6" target="c50f0041-7645-4d56-9b00-1dbd7f79090b"/>
+      <arc id="1841400577472" source="source" target="ce147dfc-8781-449e-83c6-222bf4ffea05"/>
+      <arc id="1841406796992" source="25a476e6-b83f-48c0-a80c-2c12daa3e761" target="p_7"/>
+      <arc id="1841406798528" source="ab68551f-9776-4e99-932c-bbc5b24db8c6" target="p_7"/>
+      <arc id="1841406799680" source="p_6" target="38fe9ca9-dc23-44e4-887a-5144ef7a8d73"/>
+      <arc id="1841399122624" source="p_6" target="91052f25-068b-4fcd-8e05-86a0c606d9e8"/>
+      <arc id="1841399123392" source="3528c6e4-a717-463e-ba01-b12dceaa4b16" target="p_7"/>
+      <arc id="1841399123776" source="p_6" target="db8f9ad9-9b2b-4812-b295-317e262ea82b"/>
+      <arc id="1841403174976" source="db8f9ad9-9b2b-4812-b295-317e262ea82b" target="p_7"/>
+      <arc id="1841403175360" source="p_6" target="9f93a90c-1f0d-4b3f-a647-1db3d29458b0"/>
+      <arc id="1841403176896" source="skip_5" target="sink"/>
+      <arc id="1841400656080" source="6adee5d3-765a-41b1-972f-5f844331479b" target="p_7"/>
+      <arc id="1841406797280" source="p_6" target="25a476e6-b83f-48c0-a80c-2c12daa3e761"/>
+      <arc id="1841406798048" source="p_6" target="245ea33c-16c6-42e6-9e4c-f779862b80ef"/>
+      <arc id="1841406798432" source="006a0050-6d21-464f-8209-1e6938f976ed" target="p_7"/>
+      <arc id="1841406799200" source="p_6" target="ce877563-ee68-48a2-a408-ed8655346a88"/>
+      <arc id="1841399120224" source="c8881f24-0ce3-4d7d-8dcf-5b2404886027" target="p_7"/>
+      <arc id="1841399122528" source="c50f0041-7645-4d56-9b00-1dbd7f79090b" target="p_7"/>
+      <arc id="1841399122912" source="p_6" target="b3f03a4c-a7a6-4db4-a8ad-481dc97bc5cb"/>
+      <arc id="1841399123680" source="105b235d-eba4-4089-9564-3085a8513f83" target="p_7"/>
+      <arc id="1841403175264" source="2c440fa8-9c20-402c-89bd-328fa896c4b6" target="p_7"/>
+      <arc id="1841403175648" source="p_6" target="13516413-240d-48b1-b9aa-ecc6383ad253"/>
+      <arc id="1841406796656" source="p_6" target="d3425608-37a2-41d5-8fda-ffa4a00051f7"/>
+      <arc id="1841406796272" source="p_6" target="6d7c79fa-8d07-4d74-91e5-1dc5c2108baf"/>
+      <arc id="1841406797424" source="6d7c79fa-8d07-4d74-91e5-1dc5c2108baf" target="p_7"/>
+      <arc id="1841406798192" source="245ea33c-16c6-42e6-9e4c-f779862b80ef" target="p_7"/>
+      <arc id="1841406799344" source="dd106174-6fea-4779-a6db-4b9ab5491290" target="p_7"/>
+      <arc id="1841406798960" source="38fe9ca9-dc23-44e4-887a-5144ef7a8d73" target="p_7"/>
+      <arc id="1841406797808" source="ce877563-ee68-48a2-a408-ed8655346a88" target="p_7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
